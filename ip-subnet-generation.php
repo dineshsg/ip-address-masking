@@ -5,6 +5,6 @@
 		$count = pow(2,$exponent);
 		$start = ip2long($parts[0]);
 		$end = $start+$count;
-		$allowed_ip = array_map('long2ip', range($start, $end) );
+		$ip_range = array_map('long2ip', range($start, $end) );
 	}
 ?>
